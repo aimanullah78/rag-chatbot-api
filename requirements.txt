@@ -3,16 +3,16 @@ Flask==3.1.2
 flask-cors==6.0.2
 gunicorn==23.0.0
 
-# AI & LLM
+# AI & LLM - Menggunakan versi lama yang stabil
 groq==1.0.0
-sentence-transformers  # <-- TANPA VERSI
-cross-encoder        # <-- TANPA VERSI
+sentence-transformers==2.7.0
+cross-encoder==1.2.5
 
 # Database & Storage
 pymilvus==2.6.6
 google-cloud-storage==2.18.2
 
-# Essential Dependencies
+# Essential Dependencies (sering dibutuhkan oleh library di atas)
 requests==2.32.5
 google-auth==2.47.0
 google-api-core==2.29.0
