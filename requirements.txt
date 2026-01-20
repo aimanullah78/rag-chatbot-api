@@ -1,18 +1,21 @@
-# Core Web Framework & Server
 Flask==3.1.2
 flask-cors==6.0.2
 gunicorn==23.0.0
 
-# AI & LLM
+# LLM / API Clients
 groq==1.0.0
-sentence-transformers
-cross-encoder
+openai==2.15.0
+google-generativeai==0.8.6
 
-# Database & Storage
+# Vector DB
 pymilvus==2.6.6
-google-cloud-storage==2.18.2
+milvus-lite==2.5.1
 
-# Essential Dependencies (sering dibutuhkan oleh library di atas)
+# Embedding / Rerank (CPU-only safe)
+sentence-transformers==5.2.0
+torch==2.2.2
+
+# Utils
+numpy==2.4.1
 requests==2.32.5
-google-auth==2.47.0
-google-api-core==2.29.0
+python-dotenv==1.2.1
