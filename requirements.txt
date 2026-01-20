@@ -1,14 +1,12 @@
---index-url https://pypi.org/simple/
-
 # Core Web Framework & Server
 Flask==3.1.2
 flask-cors==6.0.2
 gunicorn==23.0.0
 
-# AI & LLM - Menggunakan versi lama yang stabil
+# AI & LLM
 groq==1.0.0
 sentence-transformers==2.7.0
-cross-encoder==1.2.5
+# cross-encoder akan diinstall otomatis oleh sentence-transformers
 
 # Database & Storage
 pymilvus==2.6.6
