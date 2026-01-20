@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Environment Variables & Secrets (SANGAT PENTING!)
+.env
+config.json
+config_zilliz.json
+*.json  # Kita akan mengatur semua file JSON diabaikan dulu untuk keamanan
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Folder Output (Sudah pindah ke GCS)
+output/
+
+# File lama yang tidak perlu untuk proyek cloud
+app.py
+chatbot_milvus.py
+embedding.py
+extractor_v4.py
+insert_to_zilliz.py
+investigate_milvus.py
+lite_to_zilliz.py
+rag_v2_lite.db
+data_migrasi.pkl
+tes_zilliz.py
+reset_database.py
